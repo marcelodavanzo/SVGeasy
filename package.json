@@ -1,10 +1,11 @@
 {
-  "name": "svgeasy",
-  "description": "",
+  "name": "SVGeasy",
+  "description": "Sketch Plugin to easily export SVGO optimised SVG files.",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
   },
+  "repository": "https://github.com/marcelodavanzo/SVGeasy",
   "skpm": {
     "name": "SVGeasy",
     "manifest": "src/manifest.json",
