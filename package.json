@@ -5,7 +5,10 @@
   "engines": {
     "sketch": ">=49.0"
   },
-  "repository": "https://github.com/marcelodavanzo/SVGeasy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelodavanzo/SVGeasy.git"
+  },
   "skpm": {
     "name": "SVGeasy",
     "manifest": "src/manifest.json",
