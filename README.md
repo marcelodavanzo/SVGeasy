@@ -1,10 +1,18 @@
 # SVGeasy
+Sketch Plugin to easily export SVGO optimised SVG files.
 
 ## Installation
 
+- Install SVGO by running `$ npm install -g svgo` in Terminal
 - [Download](../../releases/latest/download/svgeasy.sketchplugin.zip) the latest release of the plugin
 - Un-zip
-- Double-click on svgeasy.sketchplugin
+- Double-click on `svgeasy.sketchplugin`
+
+# How it works
+
+SVGeasy looks for Symbols named `icon / icon-name / icon-size` and exports them to a folder of your preference as optimised SVGs. The output filename will be `icon-name_icon-size.svg` (eg. delete_32.svg).
+
+---
 
 ## Development Guide
 
